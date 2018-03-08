@@ -15,12 +15,9 @@ Running the tests:
 	npm test
 
 
-Frameworks/Technologies used
+Key Frameworks/Technologies used
 
-React
-Reflux (similar to Flux and Redux)
-Node
-Styled Components (used very little)
+React, Reflux, Node, Styled Components, Jest, Font Awesome
 
 
 Reviewing the Code
