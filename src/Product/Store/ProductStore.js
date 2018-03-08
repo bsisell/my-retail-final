@@ -13,9 +13,9 @@ let ProductStore = function(application_obj) {
 
 		purchase_quantity: 1, 
 
-		image_index_range: 4, //This controls how many images are to be shown in the carousel selector
+		image_index_range: 3, //This controls how many images are to be shown in the carousel selector
 		image_slider_index_min: 0, //default min max indexes for the carousel
-		image_slider_index_max: 3,
+		image_slider_index_max: 2,
 		selected_image_index: 0, //default selectd image
 		
 	};
@@ -138,6 +138,10 @@ let ProductStore = function(application_obj) {
 
 			//This function is a bit complicated because I wanted it to be able to handle changes to how many
 			//images were to be shown in the carousel slider.
+
+			//Had I had enough time, I would have set the slider up to show more images when space was available
+
+			//I fully recognize that a full CSS solution is probably possible
 
 			let selected_image_index = this.app_state.view_state.selected_image_index;
 			let selected_image_number = selected_image_index + 1;

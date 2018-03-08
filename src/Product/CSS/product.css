@@ -171,10 +171,10 @@ button{
 }
 
 #ProductControlsReturnsContainerLeft{
-	width: 70px;
+	width: 60px;
 	color: #656565;
 	border-right: 1px solid #bababa;
-	font-size: 18px;
+	font-size: 16px;
 	float:left;
 	height: 30px;
 	line-height: 30px;
@@ -183,7 +183,8 @@ button{
 #ProductControlsReturnsContainerRight{
 	float:left;
 	padding-left: 10px;
-	font-size: 11px;
+	font-size: 9px;
+	line-height: 15px;
 }
 
 
