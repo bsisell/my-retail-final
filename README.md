@@ -2,7 +2,7 @@ MyRetail Case Study
 Brett Sisell
 
 
-About the project
+About the project:
 
 React's fabulous create-react-app was used for the set up of this application.
 
@@ -15,15 +15,12 @@ Running the tests:
 	npm test
 
 
-Frameworks/Technologies used
+Key Frameworks/Technologies used:
 
-React
-Reflux (similar to Flux and Redux)
-Node
-Styled Components (used very little)
+React, Reflux, Node, Styled Components, Jest, Font Awesome
 
 
-Reviewing the Code
+Reviewing the Code:
 
 All interesting files will be found in the `src` directory and specifically the `src/Product` directory.
 
