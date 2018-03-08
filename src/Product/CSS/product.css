@@ -1,0 +1,448 @@
+
+/* Quick and easy global classes*/
+.clear_both{
+	clear: both;
+}
+
+/* This was entirely ripped off from bootstrap CSS */
+
+button{
+	display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*Assigning some quick and easy max and mins to keep things simple*/
+
+#ProductApp{
+	max-width: 1300px;
+	min-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*===============================================================================================
+  Product Controls
+*/
+
+#ProductControls{
+
+}
+
+
+#ProductControlsPriceContainer{
+	height: 60px;
+}
+
+#ProductControlsPrice{
+	font-size: 28px;
+	font-weight: 600;
+}
+
+#ProductControlsPriceQualifier{
+	font-weight: 300;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+
+#ProductPromotions{
+	border-top: 1px solid #bababa;
+	border-bottom: 1px solid #bababa;
+	padding: 10px 0;
+}
+
+.product_promotion_list_item {
+	color: rgb(204, 0, 0);
+	margin: 10px 0;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.product_promotion_list_item_text{
+	margin-left: 8px;
+}
+
+#ProductPurchaseQuantityControl{
+	padding: 20px 0;
+}
+
+#ProductPurchaseQuantityControlBody{
+	border: 1px solid #bababa;
+	border-radius: 4px;
+	width: 50%;
+	padding: 5px 5px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#ProductPurchaseQuantityControlBodyLeft{
+	float: left;
+	font-size: 13px;
+	color: #656565;
+}
+
+#ProductPurchaseQuantityControlBodyRight{
+	float: right;
+}
+
+#ProductPurchaseQuantityControlBodyRight div{
+	display: inline-block;
+}
+
+.product_purchase_control_icon{
+	font-size: 20px;
+	color: #bababa;
+
+}
+#ProductPurchaseQuantityCurrent{
+	margin: 0 15px;
+	font-size: 16px;
+	font-weight: 600;
+	margin-top:-2px;
+}
+
+
+#ProductPurchaseControl{
+	padding: 15px 0;
+}
+
+.product_control_button_container{
+	width: 50%;
+	float: left;
+}
+
+.product_control_button{
+	width: 100%;
+	font-size: 14px;
+	font-weight: 100;
+	padding: 0 5px;
+	height: 35px;
+	color: white;
+	
+}
+
+
+#ProductControlCartButton{
+	padding-left: 5px;
+}
+
+#ProductControlCartButton button{
+	background-color: rgb(204, 0, 0);
+	border-color: rgb(180, 0, 0);
+}
+
+#ProductControlCartButton button:hover{
+	background-color: rgb(170, 0, 0);
+}
+
+#ProductControlPickupButton{
+	padding-right: 5px;
+}	
+
+#ProductControlPickupButton button{
+	background-color: #636363;
+	border-color: #404040;
+}	
+
+#ProductControlPickupButton button:hover{
+	background-color: #404040;
+}	
+
+#ProductControlPickupButtonFinePrint{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+#ProductControlsReturnsContainer{
+	padding: 15px 0;
+}
+
+#ProductControlsReturnsContainerLeft{
+	width: 70px;
+	color: #656565;
+	border-right: 1px solid #bababa;
+	font-size: 18px;
+	float:left;
+	height: 30px;
+	line-height: 30px;
+}
+
+#ProductControlsReturnsContainerRight{
+	float:left;
+	padding-left: 10px;
+	font-size: 11px;
+}
+
+
+#ProductControlsSecondaryActionContainer{
+	padding: 15px 0;
+	height: 30px;
+}
+
+.product_controls_secondary_action_container{
+	width: 33.33%;
+	float: left;
+
+}
+
+.product_controls_secondary_action_button{
+	width: 100%;
+	font-size: 12px;
+	font-weight: 100;
+	padding: 0 5px;
+	height: 30px;
+	color: #656565;
+	background-color: #f1f1f1;
+	border-color: white;
+	border-width: 1px 4px;
+}
+
+/*===============================================================================================
+  Product Highlights
+*/
+
+#ProductHighlights{
+ 
+}
+
+#ProductHighlightsTitle{
+	font-size: 28px;
+	font-weight: 300;
+}
+
+#ProductHighlightsList{
+	padding-left: 20px;
+	color: #929292;
+	font-weight: 300;
+	font-size: 13px;
+}
+
+#ProductHighlightsList li{
+	line-height: 20px;
+}
+
+#ProductHighlightsList strong{
+	font-weight: inherit;
+}
+
+
+/*===============================================================================================
+  Product Review
+*/
+
+#ProductReviews{
+    
+}
+
+#ProductReviewsHeader{
+	font-size: 14px;
+	height: 40px;
+	padding: 0 15px;
+}
+
+#ProductReviewsHeaderLeft{
+	float: left;
+}
+
+#ProductReviewsHeaderLeft .star_rating_visual{
+	font-size: 18px;
+}
+
+#ProductReviewsHeaderLeftText{
+	margin-left: 4px;
+}
+
+#ProductReviewsHeaderRight{
+	float: right;
+}
+
+#ProductReviewsViewAllControl{
+	cursor: pointer;
+}
+
+#ProductReviewsViewAllControl:hover{
+	color: rgb(204, 0, 0);
+}
+
+
+#ProductReviewsBody{
+	background-color: #f7f7f7;
+	padding: 10px 20px;
+}
+
+#ProductReviewsBodyHeader{
+	height: 55px;
+	border-bottom: 1px solid #bababa;
+}
+
+.product_reviews_body_header_column{
+	width: 50%;
+	float: left;
+}
+
+.product_reviews_body_header_column_inner_left{
+	padding-right: 5px;
+}
+
+.product_reviews_body_header_column_inner_right{
+	padding-left: 5px;
+}
+
+.product_reviews_body_header_column_large{
+	color: rgb(51, 51, 51);
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.product_reviews_body_header_column_small{
+	color: rgb(115, 115, 115);
+	font-size: 12px;
+}
+
+.product_review_body_review_column{
+	width: 50%;
+	float: left;
+}
+
+.product_review_body_review_column_inner_left{
+	padding-right: 5px;
+}
+
+.product_review_body_review_column_inner_right{
+	padding-left: 5px;
+}
+
+.product_review_highlight_star{
+	color: rgb(204, 0, 0);
+}
+
+.product_review_dark_star{
+	color: rgb(128, 128, 128);
+}
+
+.product_reviews_review_block{
+	padding: 10px 0;
+}
+
+.product_reviews_review_block .star_rating_visual{
+	font-size: 13px;
+}
+
+.product_reviews_review_block_title{
+	font-weight: 600;
+	margin: 5px 0;
+}
+
+.product_reviews_review_block_body{
+	font-size: 13px;
+}
+
+.product_reviews_review_block_demo{
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+
+/*===============================================================================================
+  Product Images
+*/
+
+#ProductImages{
+	text-align: center;
+}
+
+#ProductImagesTitle{
+	color: #656565;
+	font-size: 22px;
+	font-weight: 300;
+	width: 400px;
+	display: inline-block;
+}
+
+#ProductImagesPrimaryImage{
+	height: 350px;
+	width: 100%;
+	
+	padding: 30px 0;
+}
+
+#ProductImagesPrimaryImage img{
+	height: 100%;
+
+}
+
+#ProductImagesViewLargerContainer{
+	height: 30px;
+	text-align:center;
+}
+
+#ProductImagesViewLargerControl{
+	font-size: 12px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #b1b1b1;
+	width: auto;
+	display:inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+#ProductImagesViewLargerControl:hover{
+	color: rgb(204, 0, 0);
+}
+
+#ProductImagesViewLargerControl .view_larger_icon{
+	font-size: 14px;
+}
+
+#ProductImagesSliderContainer{
+	text-align: center;
+	height: 70px;
+	margin-top:10px;
+}
+
+#ProductImagesSlider{
+	display: inline-block;
+	height: 100%;
+
+}
+
+.product_images_sider_side_control{
+	display: inline-block;
+	height: 100%;
+	width: 30px;
+	cursor: pointer;
+	color: #b1b1b1;
+}
+.product_images_sider_side_control:hover{
+	color: rgb(204, 0, 0);
+}
+
+.product_images_alternate_image{
+	height: 100%;
+}
+
+.product_images_chevron{
+	font-size: 20px;
+	height: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
