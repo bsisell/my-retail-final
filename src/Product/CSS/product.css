@@ -4,6 +4,16 @@
 	clear: both;
 }
 
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
 /* This was entirely ripped off from bootstrap CSS */
 
 button{
@@ -104,8 +114,12 @@ button{
 .product_purchase_control_icon{
 	font-size: 20px;
 	color: #bababa;
-
+	cursor: pointer;
 }
+.product_purchase_control_icon:hover{
+	color: #8e8e8e;
+}
+
 #ProductPurchaseQuantityCurrent{
 	margin: 0 15px;
 	font-size: 16px;
@@ -164,6 +178,10 @@ button{
 	text-align: center;
 	font-size: 12px;
 	margin-top: 4px;
+	cursor: pointer;
+}
+#ProductControlPickupButtonFinePrint:hover{
+	color: rgb(204, 0, 0);
 }
 
 #ProductControlsReturnsContainer{
@@ -434,6 +452,7 @@ button{
 
 .product_images_alternate_image{
 	height: 100%;
+	cursor: pointer;
 }
 
 .product_images_chevron{

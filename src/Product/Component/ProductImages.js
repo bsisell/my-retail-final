@@ -91,7 +91,7 @@ let ProductImages = createReactClass({
 
 				</div>
 
-				<div id="ProductImagesSliderContainer">
+				<div id="ProductImagesSliderContainer" className="noselect">
 
 					<div className="product_images_sider_side_control" onClick={this.props.applicationActions.decrementSelectedImage}>
 						<i className="fa fa-chevron-left product_images_chevron"></i>
@@ -122,7 +122,7 @@ let ProductImagesSmall = createReactClass({
 		//Here we are selected an secondary image to be displayed as the primary
 
 		//Call the correct action, passing in the INDEX of the image
-		
+
 		this.props.applicationActions.selectProductImage(this.props.image_index);
 
 	},
@@ -131,7 +131,7 @@ let ProductImagesSmall = createReactClass({
 
 		return (
 			<ProductImageSmall active={this.props.active} selected={this.props.selected}>
-				<img className="product_images_alternate_image" src={this.props.image_src} alt={this.props.image} onClick={this.handleImageSelection} />
+				<img className="product_images_alternate_image noselect" src={this.props.image_src} alt={this.props.image} onClick={this.handleImageSelection} />
 			</ProductImageSmall>
 		);
 

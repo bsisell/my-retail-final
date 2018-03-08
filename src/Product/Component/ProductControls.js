@@ -130,13 +130,13 @@ let ProductPurchaseQuantityControl = createReactClass({
 					<div id="ProductPurchaseQuantityControlBodyRight">
 
 						<div onClick={this.props.applicationActions.decrementPurchaseQuantity}>
-							<i className="fa fa-minus-circle product_purchase_control_icon"></i>
+							<i className="fa fa-minus-circle product_purchase_control_icon noselect"></i>
 						</div>
 
 						<div id="ProductPurchaseQuantityCurrent">{purchase_quantity}</div>
 						
 						<div onClick={this.props.applicationActions.incrementPurchaseQuantity}>
-							<i className="fa fa-plus-circle product_purchase_control_icon"></i>
+							<i className="fa fa-plus-circle product_purchase_control_icon noselect"></i>
 						</div>
 					</div>
 
